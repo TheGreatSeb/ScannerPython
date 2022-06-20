@@ -33,14 +33,3 @@ while True:
         pi_pwm.ChangeDutyCycle(100)
         sleep(0.03)
         pi_pwm.ChangeDutyCycle(0)
-"""
-Button:
-    pin 22 gpio
-LED:
-    pin 21 gpio
-Buzzer:
-    pin 27 gpio
-"""
-
-#while True:
-#    print("hello there")
